@@ -20,4 +20,7 @@ const apareceGato=()=>{
     console.log(cat)
     cat.style.display = (cat.style.display === 'none') ? 'block' : 'none';
     
+    let miauw=document.getElementById("audio")
+    console.log(miauw)
+    miauw.style.display= (miauw.style.display === 'none') ? 'block' : 'none';
 }

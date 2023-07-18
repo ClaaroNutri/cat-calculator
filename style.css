@@ -105,12 +105,15 @@ h2{
 i{
     font-size: 1.7rem;
 }
-
+#audio{
+    display: none;
+    margin-top: 20px;
+}
 @media (max-width:460px) {
     .gatito{
         width: 30%;
     }
     .gato{
-        margin-top: 800px;
+        margin-top: 850px;
     }
 }
