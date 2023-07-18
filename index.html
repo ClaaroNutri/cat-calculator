@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAT-CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="th-removebg-preview copy..ico">
+  </head>
+  <body>
+    <div class="contenedor-calculadora">
+      <h2>CAT-CALCULATOR 😸</h2>
+      <div class="gato">
+        <img  src="th-removebg-preview.png"  alt="img-gato">
+      </div>
+      <div class="calculadora">
+      <input type="text" id="pantalla" readonly />
+      <div class="botonera">
+      <input type="button" value="1" onclick="leerValor('1')"/>
+      <input type="button" value="2" onclick="leerValor('2')" />
+      <input type="button" value="3" onclick="leerValor('3')" />
+      <input type="button" value="4" onclick="leerValor('4')"/>
+      <input type="button" value="5" onclick="leerValor('5')"/>
+      <input type="button" value="6" onclick="leerValor('6')"/>
+      <input type="button" value="7" onclick="leerValor('7')" />
+      <input type="button" value="8" onclick="leerValor('8')"/>
+      <input type="button" value="9" onclick="leerValor('9')"/>
+      <input type="button" value="0" onclick="leerValor('0')"/>
+      <input type="button" value="+" onclick="leerValor('+')"/>
+      <input type="button" value="-" onclick="leerValor('-')"/>
+      <input type="button" value="*" onclick="leerValor('*')"/>
+      <input type="button" value="/" onclick="leerValor('/')"/>
+      <input type="button" id="gato" value="=" onclick="calcular('')"/>
+      <input type="button" id="c"value="C" onclick="borrar('')"/>
+      <div class="img-gato">
+        <i > 🐾</i>
+      </div>
+    </div>
+    </div>
+    <input class="gatito" onclick="apareceGato()" type="button" value="Click Here">
+    </div>
+    
+    <script src="lógica.js"></script>
+  </body>
+</html>

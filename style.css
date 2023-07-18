@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(176, 174, 161);
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color:antiquewhite;
+}
+.contenedor-calculadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: 2px solid #3b3a3a;
+    border-radius: 10px;
+    box-shadow: 2px 3px 13px #313030;
+    background-color: #676666; 
+    
+}
+
+
+#pantalla{
+    border-radius: 8px;
+    background-color: aliceblue;
+    width: 320px;
+    font-size: x-large;
+    padding: 8px;
+    box-shadow: 1px 3px 13px #161616;
+    margin-bottom: 10px;
+    
+}
+.botonera{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: 1 1;
+    gap: 7px;
+    background-color: #676666;
+
+}
+.botonera input{
+    width: 30%;
+    height: 35%;
+    background-color: #b1b1b1;
+    gap:10px;
+    border-radius: 6px;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 3px 10px #232323;
+    
+}
+.botonera input:hover{
+    background-color: aqua;
+}
+.gatito{
+    margin-top: 35px;
+    width: 10%;
+    height: 10%;
+    padding: 8px;
+    border-radius: 10px;  
+    background-color:antiquewhite;
+    font-size:large;
+    font-weight: 500;
+    border:none;
+    color: #313030;
+    box-shadow: 2px 3px 10px #3b3a3a;
+    
+}
+.gatito:hover{
+    background-color:aqua;
+}
+
+.gato{
+    display: none;
+    margin-left: 50%;
+    position:absolute;
+    margin-top: 100px;
+}
+
+#gato:hover{
+    background-color:orangered ;
+}
+#c:hover{
+    background-color:antiquewhite ;
+}
+i{
+    font-size: 1.7rem;
+}
+
+@media (max-width:460px) {
+    .gatito{
+        width: 30%;
+    }
+    .gato{
+        margin-top: 800px;
+    }
+}
